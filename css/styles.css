@@ -1,0 +1,30 @@
+/* Default & Mobile View */
+body {
+    max-width: 1280px;
+}
+
+/* Tablet View */
+
+@media (min-width: 768px) {
+
+    main{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex-basis: 50%;
+        
+    }
+	
+}
+
+
+/* Desktop View */
+
+@media (min-width: 1024px) {
+	.card {
+        flex-basis: 33%;
+    }
+}
